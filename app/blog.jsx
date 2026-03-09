@@ -6,7 +6,7 @@ const blog = () => {
   return (
     <View>
       <Text>This is the blog page.</Text>
-      <Link href="/portfolio" style={styles.link}>Go to Portfolio Page</Link>
+      <Link href="/" style={styles.link}>Go to Home Page</Link>
     </View>
   )
 }

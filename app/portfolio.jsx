@@ -7,7 +7,7 @@ const portfolio = () => {
     <View>
       <Text>This is the portfolio page.</Text>
 
-      <Link href="/blog" style={styles.link}>Go to Blog Page</Link>
+      <Link href="/" style={styles.link}>Go to Home Page</Link>
     </View>
   )
 }
