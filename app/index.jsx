@@ -27,13 +27,14 @@ export default function HomePage() {
 
         <View style={styles.leadText}>
           <Text style={styles.name}>Joseph Bentley</Text>
-          <Text style={styles.title}>Programmer, Software Engineer</Text>
+          <Text style={styles.description}>Studying at CSUB, Bachelor's in Computer Science</Text>
+          <Text style={styles.description}>Programmer, Software Engineer</Text>
 
-          <Text style={styles.description}>
-            This is my Vercel-hosted portfolio site.
+          <Text style={styles.title}>
+            Welcome to my Vercel-hosted portfolio site.
           </Text>
-          <Text style={styles.description}>
-            View my resume and projects.
+          <Text style={styles.title}>
+            My projects can be found in the link below.
           </Text>
 
           <View style={styles.ctaRow}>
@@ -93,8 +94,8 @@ const styles = StyleSheet.create({
   title: {
     color: "#a8b3c7",
     fontSize: 16,
-    marginTop: 4,
-    marginBottom: 8,
+    marginTop: 2,
+    marginBottom: 0,
   },
   description: {
     color: "#c7d2e6",
