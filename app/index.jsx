@@ -20,6 +20,7 @@ export default function HomePage() {
           <Image
             source={PROFILE_SRC}
             style={styles.avatar}
+            resizeMode="contain"
             accessibilityLabel="Profile Picture"
           />
         </View>
@@ -29,7 +30,10 @@ export default function HomePage() {
           <Text style={styles.title}>Programmer, Software Engineer</Text>
 
           <Text style={styles.description}>
-            PLACEHOLDER!!!
+            This is my Vercel-hosted portfolio site.
+          </Text>
+          <Text style={styles.description}>
+            View my resume and projects.
           </Text>
 
           <View style={styles.ctaRow}>
@@ -66,10 +70,12 @@ const styles = StyleSheet.create({
     width: 200,
     minWidth: 120,
     alignItems: "center",
+    flexShrink: 0,
+    justifyContent: "center",
   },
   avatar: {
-    width: 194,
-    height: 292,
+    width: 218,
+    height: 290,
     borderRadius: 16,
     borderWidth: 1,
     borderColor: "#26324a",

@@ -20,7 +20,7 @@ const NAV_LINKS = [
 
 const DROPDOWN_LINKS = [
     { label: "Blog", href: "/blog" },
-    { label: "Blog/slug", href: "" },
+    { label: "Portfolio", href: "/portfolio" },
 ]
 
 export default function RootLayout() {

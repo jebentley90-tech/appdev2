@@ -1,0 +1,32 @@
+export const posts = [
+    {
+        id: 1,
+        title: "Building My App with Expo Router",
+        data: "",
+        slug: "building-my-expo-app-with-expo-router",
+        excerpt: "",
+        content: "",
+        tags: [],
+        coverImage: null,
+    },
+    {
+        id: 2,
+        title: "Building My App with Expo Router",
+        data: "",
+        slug: "building-my-expo-app-with-expo-router",
+        excerpt: "",
+        content: "",
+        tags: [],
+        coverImage: null,
+    },
+    {
+        id: 3,
+        title: "Building My App with Expo Router",
+        data: "",
+        slug: "building-my-expo-app-with-expo-router",
+        excerpt: "",
+        content: "",
+        tags: [],
+        coverImage: null,
+    },
+]
