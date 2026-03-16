@@ -5,7 +5,7 @@ export const posts = [
         date: "2026-03-16",
         slug: "building-my-expo-app-with-expo-router",
         excerpt: "A look at how I set up routing, layouts, and deployment while building a cross-platform app with Expo Router.",
-        content: "I decided to go with expo-router since this is native to react, rather than react-dom. The expo-router routing is constructed regardless of platform, so it will be consistent whether it is on the web or on iOS or Android.",
+        content: "I decided to go with expo-router since this is native to react, rather than react-router-dom. The expo-router routing is constructed regardless of platform, so it will be consistent whether it is on the web or on iOS or Android.",
         tags: ["Expo", "Routing", "Vercel"],
         coverImage: null,
     },

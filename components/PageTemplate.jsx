@@ -12,6 +12,7 @@ export default function PageTemplate({
     children,
 }) {
     return (
+        <View style={styles.pageOuter}>
         <View style={styles.page}>
             <View style={styles.hero}>
                 {eyebrow ? <Text style={styles.eyebrow}>{eyebrow}</Text> : null}
@@ -42,6 +43,7 @@ export default function PageTemplate({
             </View>
             <View styles={styles.content}>{children}</View>
         </View>
+        </View>
     );
 }
 
@@ -66,7 +68,13 @@ export function Card({ title, text, children }) {
 }
 
 const styles = StyleSheet.create({
+    pageOuter: {
+        width: "100%",
+        alignItems: "center",
+        paddingHorizontal: 20,
+    },
     page: {
+        maxWidth: 1100,
         paddingVertical: 30,
         gap: 32,
     },

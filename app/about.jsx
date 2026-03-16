@@ -100,7 +100,7 @@ export default function AboutPage() {
       >
         <Card>
           <Text style={styles.bodyText}>
-            
+            I have always found electronics to be interesting, particularly video game consoles and PC's. I enjoy pursuing understanding the logic and mathematics used in coding to achieve a task.
           </Text>
         </Card>
       </Section>
@@ -140,8 +140,8 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: "100%",
-    height: "100%",
+    width: 180,
+    height: 250,
   },
 
   heroContent: {

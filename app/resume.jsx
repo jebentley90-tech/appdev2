@@ -65,7 +65,7 @@ export default function ResumePage() {
               Associates in Computer Science • 
             </Text>
             <Text style={styles.text}>
-              Recieved a certificate.
+              Received a certificate.
             </Text>
           </View>
         </Card>
